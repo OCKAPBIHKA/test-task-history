@@ -1,0 +1,256 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFF8EA;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    /* height: auto; */
+}
+
+.conteiner-oll {
+    max-width: 375px;
+    /* Встановлюємо максимальну ширину */
+    margin: 0 auto;
+    /* Центруємо контейнер */
+    padding: 0 15px;
+    /* Додаємо відступи для зручності на малих екранах */
+}
+
+
+.logo-burg {
+    padding-top: 30px;
+    margin-left: 18px;
+    margin-right: 18px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.highlight {
+    color: #EF6E1C;
+    /* Задайте бажаний колір */
+}
+
+.btn-burger {
+    all: unset;
+    /* Скидає всі стандартні стилі кнопки */
+    cursor: pointer;
+    /* Додає стилізацію курсора */
+    display: inline-block;
+    /* Забезпечує роботу клікабельності */
+    padding: 0;
+    /* Прибирає внутрішні відступи */
+}
+
+.btn-burger img {
+    display: block;
+    /* Зображення займає всю кнопку */
+}
+
+.head-blok {
+    background-image: url('./img/vintage-crumpled-paper-textured-background\ 1.png');
+    /* Шлях до зображення */
+    background-size: contain;
+    /* Масштабування фону */
+    background-position: center;
+    /* Розташування по центру */
+}
+
+.main-text {
+    margin-top: 35px;
+    margin-bottom: 11px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    /* Трохи збільшуємо міжрядковий інтервал для кращого вигляду */
+    text-align: center;
+    max-width: 289px;
+    /* Встановлюємо ширину для трьох рядків */
+    margin-left: auto;
+    margin-right: auto;
+    /* Центруємо блок */
+    word-wrap: break-word;
+    /* Переносимо довгі слова */
+}
+
+/* Загальний контейнер */
+.container {
+    display: flex;
+    /* Включаємо Flexbox */
+    flex-direction: column;
+    /* Елементи розташовуються вертикально */
+    align-items: center;
+    /* Вирівнювання по горизонталі */
+    justify-content: center;
+    /* Вирівнювання по вертикалі */
+    text-align: center;
+    /* Текст вирівняний по центру */
+}
+
+/* Зображення */
+.image-container {
+    position: relative;
+    /* Відносне позиціонування для зміщення другого зображення */
+    margin-bottom: 20px;
+    /* Відступ між зображеннями та кнопкою */
+}
+
+/* Перше зображення */
+.image-1 {
+    display: block;
+    width: 297px;
+    height: 300px;
+}
+
+/* Друге зображення */
+.image-2 {
+    position: absolute;
+    width: 189px;
+    height: 304px;
+    bottom: -55px;
+    /* Зміщення вниз відносно першого зображення */
+    left: 0;
+    /* Вирівнювання по лівому краю першого зображення */
+}
+
+/* Кнопка */
+.btn-general {
+    margin-top: 35px;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #EF6E1C;
+    /* Задайте колір кнопки */
+    color: white;
+    border-radius: 5px;
+}
+
+/* ------------BLOCK 2 ------------------- */
+.block-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.first-post {
+    display: flex;
+    justify-content: center;
+}
+
+.poster-1 {
+    position: relative;
+    display: flex;
+    width: 302px;
+}
+
+.poster-1 img {
+    width: 100%;
+}
+
+.poster-1 h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #2F2F2F;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    pointer-events: none;
+}
+
+.posters-2 {
+    position: relative;
+    width: 302px;
+    /* Також можна використовувати `max-width` для адаптивності */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-6 {
+    width: 60%;
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    object-fit: contain
+}
+
+.image-3 {
+    max-width: 85px;
+    position: absolute;
+    top: 145px;
+    left: 235px;
+}
+
+
+
+.block-3 {
+    background-image: url('./img/vintage-crumpled-paper-textured-background\ 2.png');
+    /* Шлях до зображення */
+    background-size: contain;
+    /* Масштабування фону */
+    background-position: center;
+    /* Розташування по центру */
+}
+
+.block-5 {
+    background-image: url('./img/vintage-crumpled-paper-textured-background\ 3.png');
+    /* Шлях до зображення */
+    background-size: contain;
+    /* Масштабування фону */
+    background-position: center;
+    /* Розташування по центру */
+}
+
+.block-7 {
+    background-image: url('./img/vintage-crumpled-paper-textured-background\ 4.png');
+    /* Шлях до зображення */
+    background-size: contain;
+    /* Масштабування фону */
+    background-position: center;
+    /* Розташування по центру */
+}
+
+.footer {
+    background-color: #725543;
+}
+
+.about-us {
+    display: flex;
+}
+
+.logo-foot {
+    display: flex;
+}
